@@ -84,7 +84,7 @@ header{
   padding: 0 10px;
 }
 
-.nav .menu li a{
+.menu li a{
   color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -227,4 +227,12 @@ footer .b-grey{
   text-align: right;
 }
 
+#special-text{
+  color: grey;
+  border-bottom: 1px solid grey;
+  padding-right: 80px;
+}
+
+
+  
 
