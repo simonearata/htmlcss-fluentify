@@ -170,7 +170,7 @@ main .b-grey{
   line-height: 20px;
 }
 
-.box-img{
+.colonna .box-img{
   width: 40%;
   height: 150px;
   margin: auto;
@@ -208,8 +208,8 @@ main .b-grey{
   margin: 15px 0;
 }
 
-/* FOOTER */
-footer .b-grey{
+/* section grigia */
+section .b-grey{
   width: 100%;
   padding: 0 10%;
   line-height: 140px;
@@ -234,5 +234,21 @@ footer .b-grey{
 }
 
 
-  
+/* SECTION IMG + CTA */
+.sezione3{
+  height: 300px;
+}
+
+.sezione3 .text-right{
+  padding-left: 80px;
+}
+
+.sezione3 .text-right h2{
+  margin: 30px auto;
+  letter-spacing: 2px;
+}
+
+
+
+
 
