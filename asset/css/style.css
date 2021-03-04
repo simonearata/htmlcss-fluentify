@@ -21,12 +21,17 @@ body{
   float: left;
 }
 
+.float-right{
+  float: right;
+}
+
 .vw-50{
   width: 50%;
 }
 
 .b-grey{
   height: 140px;
+  background-color: #d3d3d3;
 }
 
 /* HEADER */
@@ -79,7 +84,7 @@ header{
   padding: 0 10px;
 }
 
-.menu li a{
+.nav .menu li a{
   color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -130,7 +135,6 @@ header{
 
 /* MAIN */
 main{
-  height: 540px;
   background-color: white;
 }
 
@@ -139,31 +143,30 @@ main{
   padding: 0 10%;
 }
 
-.b-grey{
+main .b-grey{
   text-align: center;
-  vertical-align: middle;
-  height: 140px;
-  background-color: #d3d3d3;
+  padding-top: 40px;
+  line-height: 30px;
 }
 
-/* COLONNE */
-.colonne{
+/* TRE COLONNE */
+.sezione1{
   background-color: white;
   height: 400px;
   text-align: center;
 }
 
-.colonna{
+.sezione1 .colonna{
   width: 27%;
   margin: 0 3%;
 }
 
-.colonna h2{
+.sezione1 .colonna h2{
   color: #99ca3b;
   height: 50px;
 }
 
-.colonna p{
+.sezione1 .colonna p{
   line-height: 20px;
 }
 
@@ -183,3 +186,45 @@ main{
   width: 25%;
   margin: 20px auto;
 }
+
+/* DUE COLONNE */
+.sezione2{
+  height: 400px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.sezione2 .colonna{
+  width: 50%;
+  height: 100%;
+}
+
+.sezione2 .colonna img{
+  width: 100%;
+  height: 400px;
+}
+
+.sezione2 .colonna p{
+  margin: 15px 0;
+}
+
+/* FOOTER */
+footer .b-grey{
+  width: 100%;
+  padding: 0 10%;
+  line-height: 140px;
+}
+
+.b-grey .text{
+  font-size: 25px;
+  font-weight: bold;
+  width: 50%;
+}
+
+
+.select{
+  width: 50%;
+  text-align: right;
+}
+
+
